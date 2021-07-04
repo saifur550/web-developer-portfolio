@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Festive&family=Roboto+Mono:wght@400;700&family=Tourney:wght@500;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700&display=swap');
 
 
 :root{
     --mainFont :'Roboto Mono', monospace;
     --logoFont :'Tourney', cursive;
     --otherFont:'Festive', cursive;
+    --bodyFont :'Montserrat', sans-serif;
 }
 
 *{
@@ -27,17 +29,17 @@ img{
 }
 
 body{
-    font-family: var(--mainFont);
+    font-family: var(--bodyFont);
     font-size: 1.06rem;
 }
 
 h1{
     font-size: 50px;
-    font-family: var(--mainFont);
+    font-weight: 700;
 }
 
 .header__section{
-    background-image: url(../img/exp-bg.png);
+    background-image: url(../img/top-banner.png);
     background-repeat: no-repeat;
 }
 
@@ -53,7 +55,7 @@ h1{
 
 .left-content span{
     color: #FB9300;
-    font-family: var(--otherFont);
+   
 }
 
 .right-content img{
