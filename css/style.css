@@ -111,6 +111,9 @@ body{
 
 .experiences__section{
     padding: 10px 20px;
+    background-image: url(../img/exp-bg.png);
+    background-repeat: no-repeat;
+    
 }
 .title__area h1{
     font-size: 50px;
@@ -169,6 +172,48 @@ body{
 
 /* Media Queries */
 
+@media screen and (max-width: 414px) {
+
+
+    *{
+        padding: 0;
+        margin: 0;
+    }
+
+    h1{
+        font-size:30px !important ;
+        margin-bottom: 10px;
+    }
+
+  
+    .flex{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .experiences__section{
+        text-align: center;
+    }
+
+    .main__experiences{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .user-profile{
+        padding: 10px;
+    }
+    .dream-big .dream-img{
+        padding: 10px;
+    }
+
+    .fix-width {
+        width: 100%;
+        padding: 40px;
+        
+    }
+}  
 
 
 @media screen and (max-width: 769px) {
