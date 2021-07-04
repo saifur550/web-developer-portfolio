@@ -31,4 +31,46 @@ body{
     font-size: 1.06rem;
 }
 
+h1{
+    font-size: 50px;
+    font-family: var(--mainFont);
+}
 
+.header__section{
+    background-image: url(../img/exp-bg.png);
+    background-repeat: no-repeat;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.col-1-2{
+    width: 50%;
+    padding-left: 2%;
+}
+
+.left-content span{
+    color: #FB9300;
+    font-family: var(--otherFont);
+}
+
+.right-content img{
+    width: 60%;
+}
+
+.header__section h3 {
+    margin-bottom: 10px;
+}
+
+.header__section p{
+    margin-bottom: 10px;
+}
+
+.btn-hire{
+    background-image: linear-gradient(coral, tomato);
+    color: #fff;
+    padding: 10px 20px;
+    display: inline-block;
+}
