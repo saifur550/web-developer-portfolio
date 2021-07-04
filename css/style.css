@@ -76,3 +76,25 @@ h1{
     padding: 10px 20px;
     display: inline-block;
 }
+
+.dream-big{
+    padding-top: 100px;
+}
+
+
+.dream-big P{
+    margin-bottom: 20px;
+}
+
+
+
+.dream-img{
+    width: 60%;
+}
+
+.btn-download{
+    background-image: linear-gradient(coral, tomato);
+    color: #fff;
+    padding: 10px 40px;
+    display: inline-block;
+}
