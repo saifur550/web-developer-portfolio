@@ -7,6 +7,11 @@
     --otherFont:'Festive', cursive;
 }
 
+/* *{
+    padding: 0;
+    margin: 0;
+} */
+
 
 a{
     text-transform: capitalize;
@@ -34,8 +39,10 @@ h1{
     font-family: var(--mainFont);
 }
 
-section{
+section {
     display: flex;
+    align-items: center;
+    padding: 10px 20px;
 }
 
 
@@ -46,17 +53,29 @@ section{
 
 
 
-.half-content{
+.half-width{
     width: 50%;
-    padding-left: 2%;
 }
 
-.half-content span{
+.half-width  span{
     color: #FB9300; 
 }
 
-.half-content img{
-    width: 60%;
+.user-profile{
+    padding: 100px;
+}
+
+.half-width img{
+    width: 100%;
+}
+
+
+
+.header__section p{
+    color: #333;
+    text-align: justify;
+    text-transform: capitalize;
+    font-weight: normal;
 }
 
 
@@ -65,5 +84,27 @@ section{
     background-image: linear-gradient(coral, tomato);
     color: #fff;
     padding: 10px 20px;
+    display: inline-block;
+    margin-top: 20px;
     
+}
+
+
+/* section dream */
+
+.dream-big .dream-img{
+    padding: 100px;
+}
+
+.dream-info{
+    padding: 10px;
+}
+
+
+.btn-download{
+    background-image: linear-gradient(coral, tomato);
+    color: #fff;
+    padding: 10px 40px;
+    display: inline-block;
+    margin-top: 20px; 
 }
